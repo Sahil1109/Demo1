@@ -18,7 +18,7 @@ class FormsComponent extends Component {
     onSubmitButton=(event)=>{
         alert(`Your email is: ${this.state.email}`)
         event.preventDefault()
-    }
+    } 
     
     render() {
         return (

@@ -8,16 +8,17 @@ import './App.css';
 // import ClassClick from './components/ClassClick';
 // import EventBind from './components/EventBind';
 // import ParentComponent from './components/ParentComponent';
-import UserGreeting from './components/UserGreeting'
-import NameList from './components/NameList'
-import Stylesheet from './components/Stylesheet'
-import FormsComponent from './components/FormsComponent'
+// import UserGreeting from './components/UserGreeting'
+// import NameList from './components/NameList'
+// import Stylesheet from './components/Stylesheet'
+// import FormsComponent from './components/FormsComponent'
+import LifecycleA from './components/LifecycleA';
 
 function App() {
   return (
     <div className="App">
-    <FormsComponent />
-    {/*<NameList/>* <Stylesheet primary={true}/>/}
+    <LifecycleA></LifecycleA>
+    {/*<NameList/> <Stylesheet primary={true}/> <FormsComponent />*/}
     {/*<UserGreeting/>*/}
     {/*<ParentComponent/>*/}
     {/*<EventBind/>*/}
