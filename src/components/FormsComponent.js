@@ -13,6 +13,7 @@ class FormsComponent extends Component {
             email: event.target.value
         })
     }
+     
 
     onSubmitButton=(event)=>{
         alert(`Your email is: ${this.state.email}`)
