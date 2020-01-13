@@ -13,12 +13,39 @@ import './App.css';
 // import Stylesheet from './components/Stylesheet'
 // import FormsComponent from './components/FormsComponent'
 import LifecycleA from './components/LifecycleA';
+import FragmentDemo from './components/FragmentDemo';
+import Table from './components/Table';
 
 function App() {
   return (
     <div className="App">
-    <LifecycleA></LifecycleA>
-    {/*<NameList/> <Stylesheet primary={true}/> <FormsComponent />*/}
+   <Table/>
+    </div>
+  );
+}
+
+export default App;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ {/*<NameList/> <Stylesheet primary={true}/> <FormsComponent /> <LifecycleA></LifecycleA>*/}
     {/*<UserGreeting/>*/}
     {/*<ParentComponent/>*/}
     {/*<EventBind/>*/}
@@ -33,9 +60,4 @@ function App() {
   <Welcome name="Rohit" idolize="Smith"/>
       <Welcome name="Babar" idolize="no one"/> 
       <Message/>
-  <Counter/>*/}
-    </div>
-  );
-}
-
-export default App;
+  <Counter/>*/} 
