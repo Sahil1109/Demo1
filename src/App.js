@@ -15,11 +15,14 @@ import './App.css';
 import LifecycleA from './components/LifecycleA';
 import FragmentDemo from './components/FragmentDemo';
 import Table from './components/Table';
+import PureComp from './components/PureComp';
+import RegularComp from './components/RegularComp';
+import ParentComp from './components/ParentComp';
 
 function App() {
   return (
     <div className="App">
-   <Table/>
+      <ParentComp></ParentComp>      
     </div>
   );
 }
@@ -60,4 +63,4 @@ export default App;
   <Welcome name="Rohit" idolize="Smith"/>
       <Welcome name="Babar" idolize="no one"/> 
       <Message/>
-  <Counter/>*/} 
+  <Counter/>  <Table/>*/} 
