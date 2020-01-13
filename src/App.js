@@ -1,33 +1,27 @@
 import React from 'react';
 import './App.css';
-// import Greet  from './components/Greet';
-// import Welcome from './components/Welcome';
-// import Message from './components/Message';
-// import Counter from './components/Counter';
-// import FunctionalClick from "./components/FunctionalClick";
-// import ClassClick from './components/ClassClick';
-// import EventBind from './components/EventBind';
-// import ParentComponent from './components/ParentComponent';
-// import UserGreeting from './components/UserGreeting'
-// import NameList from './components/NameList'
-// import Stylesheet from './components/Stylesheet'
-// import FormsComponent from './components/FormsComponent'
-import LifecycleA from './components/LifecycleA';
-import FragmentDemo from './components/FragmentDemo';
-import Table from './components/Table';
-import PureComp from './components/PureComp';
-import RegularComp from './components/RegularComp';
-import ParentComp from './components/ParentComp';
+
+import RefsDemo from './components/RefsDemo';
 
 function App() {
   return (
     <div className="App">
-      <ParentComp></ParentComp>      
+      <RefsDemo/>
     </div>
   );
 }
 
 export default App;
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -63,4 +57,23 @@ export default App;
   <Welcome name="Rohit" idolize="Smith"/>
       <Welcome name="Babar" idolize="no one"/> 
       <Message/>
-  <Counter/>  <Table/>*/} 
+  <Counter/>  <Table/> <ParentComp></ParentComp>*/} 
+
+  // import Greet  from './components/Greet';
+// import Welcome from './components/Welcome';
+// import Message from './components/Message';
+// import Counter from './components/Counter';
+// import FunctionalClick from "./components/FunctionalClick";
+// import ClassClick from './components/ClassClick';
+// import EventBind from './components/EventBind';
+// import ParentComponent from './components/ParentComponent';
+// import UserGreeting from './components/UserGreeting'
+// import NameList from './components/NameList'
+// import Stylesheet from './components/Stylesheet'
+// import FormsComponent from './components/FormsComponent'
+// import LifecycleA from './components/LifecycleA';
+// import FragmentDemo from './components/FragmentDemo';
+// import Table from './components/Table';
+// import PureComp from './components/PureComp';
+// import RegularComp from './components/RegularComp';
+// import ParentComp from './components/ParentComp';
