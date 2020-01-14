@@ -1,14 +1,14 @@
 import React from 'react';
 import './App.css';
-import Hero from './components/Hero'
-import ErrorBoundary from './components/ErrorBoundary'
+
+import ClickCounter from './components/ClickCounter';
+import HoverCounter from './components/HoverCounter';
 
 function App() {
   return (
     <div className="App">
-    <ErrorBoundary><Hero heroName="Superman"></Hero></ErrorBoundary>
-    <ErrorBoundary><Hero heroName="Batman"></Hero></ErrorBoundary>
-    <ErrorBoundary><Hero heroName="Joker"></Hero></ErrorBoundary>    
+      <ClickCounter></ClickCounter>
+      <HoverCounter></HoverCounter>
     </div>
   );
 }
@@ -59,7 +59,11 @@ export default App;
   <Welcome name="Rohit" idolize="Smith"/>
       <Welcome name="Babar" idolize="no one"/> 
       <Message/>
-  <Counter/>  <Table/> <ParentComp></ParentComp>*/} 
+  <Counter/>  <Table/> <ParentComp></ParentComp>
+  <ErrorBoundary><Hero heroName="Superman"></Hero></ErrorBoundary>
+    <ErrorBoundary><Hero heroName="Batman"></Hero></ErrorBoundary>
+    <ErrorBoundary><Hero heroName="Joker"></Hero></ErrorBoundary>  
+*/} 
 
   // import Greet  from './components/Greet';
 // import Welcome from './components/Welcome';
@@ -78,4 +82,7 @@ export default App;
 // import Table from './components/Table';
 // import PureComp from './components/PureComp';
 // import RegularComp from './components/RegularComp';
-// import ParentComp from './components/ParentComp';
+// import ParentComp from './components/ParentComp'; 
+// import Hero from './components/Hero'
+//import ErrorBoundary from './components/ErrorBoundary'
+ 
