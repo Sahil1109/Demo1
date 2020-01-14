@@ -1,14 +1,11 @@
 import React from 'react';
 import './App.css';
-
-import RefsDemo from './components/RefsDemo';
-import FocusInput from './components/FocusInput';
-import FRParentInput from './components/FRParentInput';
+import PortalsDemo from './components/PortalsDemo';
 
 function App() {
   return (
     <div className="App">
-      <FRParentInput/>
+      <PortalsDemo/>
     </div>
   );
 }
