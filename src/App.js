@@ -1,14 +1,10 @@
 import React from 'react';
 import './App.css';
-import ComponentC from './components/ComponentC';
-import {UserProvider} from './components/userContext'
 
 function App() {
   return (
     <div className="App">
-    <UserProvider value = "AAABBBB" >
-    <ComponentC ></ComponentC>
-    </UserProvider>
+   
     </div>
   );
 }
@@ -77,6 +73,10 @@ export default App;
       {/* <ClickCounterTwo/>
       <HoverCounterTwo/>
       <User render={(isLoggedIn)=> isLoggedIn? 'Sahil': 'Guest'} /> */}
+
+       {/* <UserProvider value = "AAABBBB" >
+    <ComponentC ></ComponentC>
+    </UserProvider> */}
 
   // import Greet  from './components/Greet';
 // import Welcome from './components/Welcome';
