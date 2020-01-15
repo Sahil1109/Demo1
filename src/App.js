@@ -1,27 +1,14 @@
 import React from 'react';
 import './App.css';
-import ClickCounterTwo from './components/ClickCounterTwo';
-import HoverCounterTwo from './components/HoverCounterTwo';
-import User from './components/User';
-import CounterTwo from './components/CounterTwo';
+import ComponentC from './components/ComponentC';
+import {UserProvider} from './components/userContext'
 
 function App() {
   return (
     <div className="App">
-
-      <CounterTwo  
-        render ={(count, incrementCount) => (
-          <ClickCounterTwo count={count} incrementCount={incrementCount} />
-        )}
-        />
-        <CounterTwo  
-        render ={(count, incrementCount) => (
-          <HoverCounterTwo count={count} incrementCount={incrementCount} />
-        )}
-        />
-      {/* <ClickCounterTwo/>
-      <HoverCounterTwo/>
-      <User render={(isLoggedIn)=> isLoggedIn? 'Sahil': 'Guest'} /> */}
+    <UserProvider value = "Sahil" >
+    <ComponentC ></ComponentC>
+    </UserProvider>
     </div>
   );
 }
@@ -77,6 +64,19 @@ export default App;
     <ErrorBoundary><Hero heroName="Batman"></Hero></ErrorBoundary>
     <ErrorBoundary><Hero heroName="Joker"></Hero></ErrorBoundary>  
 */} 
+{ /* <CounterTwo  
+        render ={(count, incrementCount) => (
+        <ClickCounterTwo count={count} incrementCount={incrementCount} />
+        )}
+        />
+        <CounterTwo  
+        render ={(count, incrementCount) => (
+        <HoverCounterTwo count={count} incrementCount={incrementCount} />
+        )}
+        /> */ }
+      {/* <ClickCounterTwo/>
+      <HoverCounterTwo/>
+      <User render={(isLoggedIn)=> isLoggedIn? 'Sahil': 'Guest'} /> */}
 
   // import Greet  from './components/Greet';
 // import Welcome from './components/Welcome';
